@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #555;
+  color:#333;
+  font-family: 'Leto','Arial', sans-serif;
+  font-weight: 300;
+  text-rendering: optmizeLegibility;
+}
+
+/* page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+}
+page[size="A4"] {  
+  width: 21cm;
+  height: 29.7cm;
+} */
+
+.cover, .resume {
+  width: 21cm;
+  height: 59.4cm;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.little-box {
+  display: block;
+  float: left;
+  background-color: #327ab6;
+  width: 35%;
+  height: 100%;
+  color: #fff;
+}
+
+.big-box {
+  display: block;
+  background-color:rgb(252, 252, 255);
+  width: 65%;
+  height: 100%;
+  float: right;
+}
+@page {
+  size: 21cm 29.7cm;
+  margin: 30mm 45mm 30mm 45mm;
+}
+
+@media print {
+  body{
+    width: 21cm;
+    height: 29.7cm;
+    margin: 30mm 45mm 30mm 45mm;
+  }
+}
+
+/* ==================================
+Photo
+================================== */
+.photo {
+  display: block;
+  width: 230px;
+  margin: 40px auto 0;
+  border-radius: 50%;
+}
+
+/* ====================================== */
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.company {
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(124, 133, 138);
+  text-decoration: cadetblue;
+  font-style: italic;
+}
+td, span, li {
+  font-size: 15px;
+}
+
+.big-box  ul {
+  margin: 10px 0;
+}
+
+
+.big-box  li {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.little-box hr {
+  width: 91%;
+  margin-bottom:20px;
+  height: 1px;
+  float: right;
+  background-color: rgb(250, 250, 250);
+}
+
+.big-box h1, .big-box h2 {
+  color: #327ab6;
+}
+
+.big-box h2 {
+  font-size: 24px;
+}
+
+.big-box h3 {
+  font-weight: normal;
+  margin-top: 10px;
+  margin-left: 45px;
+  font-size: 23px;
+}
+
+.big-box h1 {
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-left: 40px;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.big-box h2 {
+  margin-top: 40px;
+}
+
+.little-box h2 {
+  margin: 40px 0 10px 20px;
+}
+
+/* =============================icons================================= */
+.little-box .ionicon {
+  width: 15px;
+  margin: 5px 10px 0px 5px;
+  fill:#fff;
+}
+
+.linkedinicon{
+  width: 15px;
+  margin: 5px 2px 0px 5px;
+  fill:#fff;
+}
+
+.big-box .ionicon {
+  width: 40px;
+  fill: #327ab6;
+  margin: 30px 30px 0 20px;
+}
+
+.little-box table {
+  margin-left: 10px;
+}
+
+.other, .little-box h3 {
+  margin-left: 20px;
+}
+
+/* .little-box h3 {
+  margin-top: 40px;
+} */
+
+.other {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.little-box li  {
+  margin-top: 5px;
+  padding-right: 8px;
+}
+.little-box ul  {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.education, .experience, .aboutme {
+  margin: 30px  20px 0 20px;
+}
+
+.project {
+  margin: 40px  20px 0 20px;
+}
+
+
+.proj {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.link {
+  font-weight: bold;
+  display: linline-block;
+}
+
+.big-box a {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #327ab6;
+}
+
+.little-box a {
+  /* display: inline-block; */
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.skills, .lang, .others, .reference {
+  margin-top: 40px;
+}
+
+.interest {
+  padding-top: 50px;
+}
+
+.reference p{
+  font-size: 14px;
+}
+
+font {
+  font-weight: bold;
+}
+
+.break {
+  display: inline-block;
+  padding-top: 7px;
+}
